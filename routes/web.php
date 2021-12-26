@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Artisan;
@@ -23,13 +24,19 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
-Route::get('/home', [HomeController::class, 'index'])->name('home');
+// Route::get('/home', [HomeController::class, 'index'])->name('home');
 
 Route::get('/clear', function(){
     Artisan::call('cache:clear');
     Artisan::call('route:clear');
     Artisan::call('config:clear');
 });
+
+
+
+// --------------- START BACKEND PART ---------------
+Route::get('/home', [AdminController::class, 'index'])->name('home');
+
 
 
 // --------------- START FRONTEND PART ---------------
@@ -44,4 +51,4 @@ Route::get('/frontend/gallery', [FrontendController::class, 'frontend_gallery'])
 
 
 
-// --------------- START  PART ---------------
+
