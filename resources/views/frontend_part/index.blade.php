@@ -148,7 +148,7 @@
                 <div class="Paint_your_imagination_content">
 
                    <div class="img">
-                       <img src="{{ asset('frontend_assets/images/IMAGINATION-1.jpg') }}" alt="" class="img-fluid">
+                       <img src="{{ asset('frontend_assets/images/img 1.jpg') }}" alt="" class="img-fluid">
                        <div class="overlay">
                            <a href="">Interior</a>
                        </div>
@@ -163,7 +163,7 @@
                 <div class="Paint_your_imagination_content">
 
                    <div class="img">
-                       <img src="{{ asset('frontend_assets/images/IMAGINATION-2.jpg') }}" alt="" class="img-fluid">
+                       <img src="{{ asset('frontend_assets/images/img 2.jpg') }}" alt="" class="img-fluid">
                        <div class="overlay">
                            <a href="">Exterior</a>
                        </div>
@@ -178,7 +178,7 @@
                 <div class="Paint_your_imagination_content">
 
                    <div class="img">
-                       <img src="{{ asset('frontend_assets/images/IMAGINATION-3.jpg') }}" alt="" class="img-fluid">
+                       <img src="{{ asset('frontend_assets/images/img 3.jpg') }}" alt="" class="img-fluid">
                        <div class="overlay">
                            <a href="">Enamel Paints</a>
                        </div>
@@ -193,7 +193,7 @@
                 <div class="Paint_your_imagination_content">
 
                    <div class="img">
-                       <img src="{{ asset('frontend_assets/images/IMAGINATION-4.jpg') }}" alt="" class="img-fluid">
+                       <img src="{{ asset('frontend_assets/images/img 4.jpg') }}" alt="" class="img-fluid">
                        <div class="overlay">
                            <a href="">Marine Paints</a>
                        </div>
@@ -208,7 +208,7 @@
                 <div class="Paint_your_imagination_content">
 
                    <div class="img">
-                       <img src="{{ asset('frontend_assets/images/IMAGINATION-5.jpg') }}" alt="" class="img-fluid">
+                       <img src="{{ asset('frontend_assets/images/img 5.jpg') }}" alt="" class="img-fluid">
                        <div class="overlay">
                            <a href="">Industrial Paints</a>
                        </div>
@@ -230,59 +230,7 @@
 {{-- Section Height --}}
 <div class="section_height"></div>
 
-<!-- --------------------------------------------------------------------------------------------------------------------------------------------------- 
-    START ABOUT PART
---------------------------------------------------------------------------------------------------------------------------------------------------- -->
-<section id="about">
 
-    <div class="container">
-
-        {{-- Header Part --}}
-        <div class="row">
-
-            <div class="col-lg-12">
-                <div class="header_pert">
-                    <h2>ABOUT</h2>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="row d_flex">
-
-            <div class="col-lg-6">
-
-                <div class="about_content">
-
-                    <div class="img">
-                        <img src="{{ asset('frontend_assets/images/about.jpg') }}" alt="" class="img-fluid">
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="col-lg-6">
-
-                <div class="about_content">
-
-                   <h4>Welcome to Cross Country Construction Limited</h4>
-
-                   <h2>17 Years Experience</h2>
-
-                   <p>CrossCountry Construction Ltd. was formed in 2005 by the Founding Directors who envisioned a firm with a core set of values including innovative thinking, commitments to its stakeholders, and being ethical in all its practices. Today, after four decades of pioneering business, it is now well known as CrossCountry Construction Ltd: one of the most recognized business houses of Bangladesh</p>
-
-                   <a href="">Learn More</a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
 
 {{-- Section Height --}}
 <div class="section_height"></div>
@@ -393,7 +341,7 @@
 
             <div class="col-lg-12">
                 <div class="header_pert">
-                    <h2>CCCL EXPRESS</h2>
+                    <h2>GET IN TOUCH</h2>
                 </div>
             </div>
 
@@ -503,7 +451,7 @@
 
             <div class="col-lg-12">
                 <div class="header_pert">
-                    <h2>CCCL Home Diaries</h2>
+                    <h2>CCCL PROJECT DIARIES</h2>
                     <p>We believe that homes are a reflection of the people who live inside, where everything looks and works the way you want it to. That’s why we’ve gathered tons of different home ideas, from home decoration ideas to organizing tips, to help you build your ideal home.</p>
                 </div>
             </div>
@@ -634,6 +582,61 @@
 
         
         
+
+    </div>
+
+</section>
+
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------------- 
+    START ABOUT PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<section id="about">
+
+    <div class="container">
+
+        {{-- Header Part --}}
+        <div class="row">
+
+            <div class="col-lg-12">
+                <div class="header_pert">
+                    <h2>ABOUT</h2>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row d_flex">
+
+            <div class="col-lg-6">
+
+                <div class="about_content">
+
+                    <div class="img">
+                        <img src="{{ asset('frontend_assets/images/about.jpg') }}" alt="" class="img-fluid">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6">
+
+                <div class="about_content">
+
+                   <h4>Welcome to Cross Country Construction Limited</h4>
+
+                   <h2>17 Years Experience</h2>
+
+                   <p>CrossCountry Construction Ltd. was formed in 2005 by the Founding Directors who envisioned a firm with a core set of values including innovative thinking, commitments to its stakeholders, and being ethical in all its practices. Today, after four decades of pioneering business, it is now well known as CrossCountry Construction Ltd: one of the most recognized business houses of Bangladesh</p>
+
+                   <a href="">Learn More</a>
+
+                </div>
+
+            </div>
+
+        </div>
 
     </div>
 
